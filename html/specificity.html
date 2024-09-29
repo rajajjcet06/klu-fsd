@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Specificity</title>
+    <style>
+        .c1{
+            color: red;
+        }
+        #id1{
+            color: blue;
+        }
+        h1{
+            color: yellow;
+        }   
+    </style>
+</head>
+<body>
+    <h1 id="id1" class="c1" style="color: pink;"> 
+            KL Univ 
+    </h1>
+</body>
+</html>
+
+<!--
+    style(inline)   >   id selector    >    class selector   >   element selector    >    universal selector
+                                                                                              ( * )
+-->
